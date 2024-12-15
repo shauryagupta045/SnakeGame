@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="snake.css" />
+    <style>
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="home-content" id="home-page">
+      <h1>SNAKE GAME</h1>
+      <h3><button onclick="startGame()" id="play">Let's play</button></h3>
+      <h5><a href=""> How to play ?</a></h5>
+    </div>
+    <div class="game-content hidden" id="game-page">
+      <h1>Score: <span id="score">0</span></h1>
+      <canvas id="board"></canvas>
+      <button id="restart-button">Restart</button>
+    </div>
+    <script src="snake.js"></script>
+  </body>
+</html>
