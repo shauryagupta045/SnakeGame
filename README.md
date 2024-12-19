@@ -13,16 +13,15 @@ JavaScript: To implement game logic and interactivity.
 📂 Project Structure
 graphql
 Copy code
-├── index.html      # Main HTML file  
-├── style.css       # Styling for the game  
-├── script.js       # Game logic and interactivity  
-├── assets/         # (Optional) Folder for images or additional resources  
+├── snake.html      # Main HTML file  
+├── snake.css       # Styling for the game  
+├── snake.js       # Game logic and interactivity   
 └── README.md       # Documentation  
 🚀 How to Play
 Clone this repository to your local machine:
 bash
 Copy code
-git clone https://github.com/shauryagupta045/snake-game.git  
+git clone https://github.com/shauryagupta045/SnakeGame.git  
 Open the index.html file in your browser.
 Use the arrow keys to control the snake.
 Try to achieve the highest score without colliding with the walls or yourself!
